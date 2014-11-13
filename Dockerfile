@@ -9,7 +9,7 @@ RUN apt-get install -y aria2
 # aria2 config
 ADD aria2.conf /etc/aria2/aria2.conf
 
-VOLUME ["/var/aria2/download"]
+VOLUME ["/data/aria2/download"]
 
 EXPOSE 6800
 

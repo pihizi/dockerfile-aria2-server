@@ -1,7 +1,7 @@
 #!/bin/bash
 
 fromdir="/tmp/aria2-images"
-todir="/var/aria2/download"
+todir="/data/aria2/download"
 rawfile="$3"
 filename=`basename $rawfile`
 
