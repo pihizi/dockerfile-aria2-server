@@ -13,4 +13,4 @@ VOLUME ["/var/aria2/download"]
 
 EXPOSE 6800
 
-CMD aria2c --conf-path=/ect/aria2/aria2.conf -D
+CMD aria2c --conf-path=/etc/aria2/aria2.conf -D
