@@ -5,7 +5,7 @@ aria2-server
 docker pull pihizi/aria2
 docker run --name pihizi-aria2 \
     -v /dev/log:/dev/log \
-    -p 6800:6800 \
+    -p 8888:8888\
     -d pihizi/aria2
 
 ```
