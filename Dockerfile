@@ -9,8 +9,8 @@ RUN apt-get install -y aria2
 # aria2 config
 ADD aria2.conf /etc/aria2/aria2.conf
 
-VOLUME ["/data/aria2/download"]
+#VOLUME ["/data/aria2/download"]
 
 EXPOSE 6800
 
-CMD aria2c --conf-path=/etc/aria2/aria2.conf -D
+CMD /usr/bin/aria2c --conf-path=/etc/aria2/aria2.conf -D
