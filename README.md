@@ -20,3 +20,7 @@ docker run --name pihizi-aria2 \
     #     -p 6800:6800 \
     #     -d pihizi/aria2 \
     #     /bin/bash
+
+## php-client
+
+    https://packagist.org/packages/pihizi/aria2-php-client
